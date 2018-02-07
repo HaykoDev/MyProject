@@ -13,7 +13,7 @@ public class MyApplication extends Application {
 
     private static ApiService apiService;
 
-    public static ApiService getApiService() {
+    public static  synchronized ApiService getApiService() {
         if (apiService == null) {
             apiService = ApiServiceFactory.getApiService();
         }
