@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_permission">App wants to access to your location</string>
+    <string name="distance">%1$s meters</string>
+    <string name="gps_alert_dialog">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_connection">No Internet Connection</string>
+</resources>
